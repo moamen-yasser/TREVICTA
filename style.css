@@ -170,6 +170,14 @@ body .iframe{
     padding-top: 70%;
 }
 }
+@media (min-height: 700px){
+html{
+    min-height: 180vh !important;
+}
+.container{
+    min-height: 180vh !important;
+}
+}
 @media (min-height: 1023px){
     html{
         min-height: 150vh;
